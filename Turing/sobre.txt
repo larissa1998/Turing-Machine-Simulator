@@ -1,0 +1,57 @@
+Trabalho de Teoria da Computa��o, no qual recebe dois arquivos de entrada, o da configura��o da m�quina e o normal, o formato de entrada �:
+
+1� linha: estado inicial
+
+2� linha: estado final
+
+3� linha: s�mbolo branco
+
+% esquecimento
+
+
+
+Assim, ao chegar na quinta linha o arquivo recebe uma sequ�ncia de intru��es:
+
+Estado atual, s�mbolo lido, s�mbolo escrito, mover para, proximo estado - exemplo: 
+s0, A,a, B, s1
+
+
+
+Exemplo de um arquivo mt:
+
+
+
+s0
+s5
+_
+%
+s0,%,_,D,s0
+s0,a,A,D,s1
+s0,B,A,D,s3
+s0,_,%,D,s5
+s1,b,b,D,s1
+s1,B,B,D,s1
+s1,b,A,E,s2
+s1,a,B,E,s2
+s2,a,b,E,s2
+s2,A,A,E,s2
+s2,B,A,D,s0
+s3,A,B,D,s3
+s3,_,_,E,s5
+
+
+
+
+Exemplo de um arquivo in:
+
+aabb
+bba
+a
+aabbb
+aaabbb
+aaaabbbb
+_
+dsadsadsa
+aaaabbbb
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
